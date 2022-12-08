@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr ':' '\n' | WC -1
+echo $((`echo $PATH | tr ':' '\n' | WC -l` + 1))
