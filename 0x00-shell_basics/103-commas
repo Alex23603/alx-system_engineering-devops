@@ -1,6 +1,4 @@
-!/bin/bash
-ls -a .  .. 0-current_working_directory  102-tree  12-file_type      1-listit         4-listmorefiles       7-movethatfile      README.md                       
-
-100-lets_move                10-back   13-symbolic_link  2-bring_me_home  5-listfilesdigitonly  8-firstdelete                                       
-
-101-clean_emacs              11-lists  14-copy_html      3-listfiles 6-firstdirectory 9-firstdirdeletion
+#!/bin/bash
+ls -a
+ls -d
+ls -m
