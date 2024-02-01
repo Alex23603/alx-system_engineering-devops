@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Sets nginx for listening to 80 port
+# nginx project should work
+# lots of hours on this one
+sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
+sudo service nginx restart
+kill -9 "$(cat /var/run/nginx.pid)"
