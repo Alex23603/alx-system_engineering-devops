@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# command runs the whoamicommand under the user passd as argmnt
+sudo -u "$1" whoami
